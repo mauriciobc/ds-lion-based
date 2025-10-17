@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2018", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ds/tokens": ["packages/tokens/src"],
+      "@ds/core": ["packages/core/src"],
+      "@ds/react": ["packages/react/src"],
+      "@ds/vue": ["packages/vue/src"],
+      "@ds/angular": ["packages/angular/src"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

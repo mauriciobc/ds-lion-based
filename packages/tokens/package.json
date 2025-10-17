@@ -1,0 +1,25 @@
+{
+  "name": "@ds/tokens",
+  "version": "0.0.0",
+  "description": "Design tokens extraídos do Figma e transformados para múltiplas plataformas",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "tokens"
+  ],
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.js",
+    "dev": "style-dictionary build --config style-dictionary.config.js --watch",
+    "clean": "rimraf dist",
+    "prebuild": "pnpm clean"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.0",
+    "style-dictionary": "^3.9.0"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,2 @@
+import{__awaiter,__generator}from"tslib";import{g as globalScripts,b as bootstrapLazy}from"./index-DF10yY81.js";export{s as setNonce}from"./index-DF10yY81.js";var defineCustomElements=function(t,e){return __awaiter(void 0,void 0,void 0,(function(){return __generator(this,(function(t){switch(t.label){case 0:if(typeof window==="undefined")return[2,undefined];return[4,globalScripts()];case 1:t.sent();return[2,bootstrapLazy([["ds-button",[[257,"ds-button",{variant:[1],size:[1],disabled:[4],type:[1]}]]]],e)]}}))}))};export{defineCustomElements};
+//# sourceMappingURL=loader.js.map

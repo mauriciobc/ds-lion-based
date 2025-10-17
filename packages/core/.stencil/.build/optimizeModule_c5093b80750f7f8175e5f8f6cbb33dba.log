@@ -1,0 +1,1 @@
+import{p as t,g as a,b as e}from"./p-DF10yY81.js";export{s as setNonce}from"./p-DF10yY81.js";var r=()=>{const s=import.meta.url;const a={};if(s!==""){a.resourcesUrl=new URL(".",s).href}return t(a)};r().then((async s=>{await a();return e([["p-dd33e15b",[[257,"ds-button",{variant:[1],size:[1],disabled:[4],type:[1]}]]]],s)}));

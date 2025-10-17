@@ -1,0 +1,49 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 17 Oct 2025 15:34:08 GMT
+ */
+
+export const ColorPrimary50 : string;
+export const ColorPrimary100 : string;
+export const ColorPrimary200 : string;
+export const ColorPrimary300 : string;
+export const ColorPrimary400 : string;
+export const ColorPrimary500 : string;
+export const ColorPrimary600 : string;
+export const ColorPrimary700 : string;
+export const ColorPrimary800 : string;
+export const ColorPrimary900 : string;
+export const ColorNeutral50 : string;
+export const ColorNeutral100 : string;
+export const ColorNeutral200 : string;
+export const ColorNeutral300 : string;
+export const ColorNeutral400 : string;
+export const ColorNeutral500 : string;
+export const ColorNeutral600 : string;
+export const ColorNeutral700 : string;
+export const ColorNeutral800 : string;
+export const ColorNeutral900 : string;
+export const SpacingXs : string;
+export const SpacingSm : string;
+export const SpacingMd : string;
+export const SpacingLg : string;
+export const SpacingXl : string;
+export const Spacing2xl : string;
+export const Spacing3xl : string;
+export const TypographyFontFamilySans : string;
+export const TypographyFontFamilyMono : string;
+export const TypographyFontSizeXs : string;
+export const TypographyFontSizeSm : string;
+export const TypographyFontSizeBase : string;
+export const TypographyFontSizeLg : string;
+export const TypographyFontSizeXl : string;
+export const TypographyFontSize2xl : string;
+export const TypographyFontSize3xl : string;
+export const TypographyFontSize4xl : string;
+export const TypographyFontWeightNormal : string;
+export const TypographyFontWeightMedium : string;
+export const TypographyFontWeightSemibold : string;
+export const TypographyFontWeightBold : string;
+export const TypographyLineHeightTight : string;
+export const TypographyLineHeightNormal : string;
+export const TypographyLineHeightRelaxed : string;

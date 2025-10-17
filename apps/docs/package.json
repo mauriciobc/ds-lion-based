@@ -1,0 +1,38 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "description": "Documentação do Design System com Storybook",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
+    "chromatic": "chromatic --exit-zero-on-changes"
+  },
+  "dependencies": {
+    "@ds/core": "workspace:*",
+    "@ds/tokens": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.0",
+    "@storybook/addon-a11y": "^7.6.0",
+    "@storybook/addon-designs": "^10.0.2",
+    "@storybook/addon-docs": "^7.6.0",
+    "@storybook/addon-interactions": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.0",
+    "@storybook/test": "^7.6.0",
+    "@storybook/web-components": "^7.6.0",
+    "@storybook/web-components-vite": "^7.6.0",
+    "@chromatic-com/storybook": "^1.0.0",
+    "chromatic": "^7.6.0",
+    "lit": "^3.0.0",
+    "rimraf": "^5.0.0",
+    "storybook": "^7.6.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

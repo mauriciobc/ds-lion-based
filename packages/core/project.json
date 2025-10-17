@@ -1,0 +1,38 @@
+{
+  "name": "core",
+  "sourceRoot": "packages/core/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "command": "stencil build --docs",
+        "cwd": "packages/core"
+      },
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "stencil build --dev --watch --serve",
+        "cwd": "packages/core"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "stencil test --spec --e2e",
+        "cwd": "packages/core"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "rimraf dist",
+        "cwd": "packages/core"
+      }
+    }
+  },
+  "tags": ["scope:core", "type:library"]
+}

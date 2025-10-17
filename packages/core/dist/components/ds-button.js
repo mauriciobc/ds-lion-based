@@ -1,0 +1,47 @@
+import { p as proxyCustomElement, H, h, a as Host } from './index.js';
+
+const dsButtonCss = ":host{display:inline-block}.btn{display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;border:none;border-radius:4px;font-family:var(--typography-font-family-sans);font-weight:var(--typography-font-weight-medium);cursor:pointer;-webkit-transition:all 0.2s ease;transition:all 0.2s ease;text-decoration:none;outline:none}.btn:focus-visible{outline:2px solid var(--color-primary-500);outline-offset:2px}.btn:disabled{opacity:0.5;cursor:not-allowed}.btn--primary{background-color:var(--color-primary-600);color:white}.btn--primary:hover:not(:disabled){background-color:var(--color-primary-700)}.btn--secondary{background-color:var(--color-neutral-200);color:var(--color-neutral-900)}.btn--secondary:hover:not(:disabled){background-color:var(--color-neutral-300)}.btn--outline{background-color:transparent;color:var(--color-primary-600);border:1px solid var(--color-primary-600)}.btn--outline:hover:not(:disabled){background-color:var(--color-primary-50)}.btn--sm{padding:var(--spacing-xs) var(--spacing-sm);font-size:var(--typography-font-size-sm);min-height:32px}.btn--md{padding:var(--spacing-sm) var(--spacing-md);font-size:var(--typography-font-size-base);min-height:40px}.btn--lg{padding:var(--spacing-md) var(--spacing-lg);font-size:var(--typography-font-size-lg);min-height:48px}";
+
+const DsButton$1 = /*@__PURE__*/ proxyCustomElement(class DsButton extends H {
+    constructor(registerHost) {
+        super();
+        if (registerHost !== false) {
+            this.__registerHost();
+        }
+        this.__attachShadow();
+        this.variant = 'primary';
+        this.size = 'md';
+        this.disabled = false;
+        this.type = 'button';
+    }
+    render() {
+        return (h(Host, { key: '872802d87a63c8523578b3711f33d1f31abac163' }, h("button", { key: '1bbb2f83c11cd8e3e4f7c1a2776d58350702faff', class: `btn btn--${this.variant} btn--${this.size}`, disabled: this.disabled, type: this.type }, h("slot", { key: '0fcaab2e382eb49c712d4846c8ba844f398ab6ad' }))));
+    }
+    static get style() { return dsButtonCss; }
+}, [257, "ds-button", {
+        "variant": [1],
+        "size": [1],
+        "disabled": [4],
+        "type": [1]
+    }]);
+function defineCustomElement$1() {
+    if (typeof customElements === "undefined") {
+        return;
+    }
+    const components = ["ds-button"];
+    components.forEach(tagName => { switch (tagName) {
+        case "ds-button":
+            if (!customElements.get(tagName)) {
+                customElements.define(tagName, DsButton$1);
+            }
+            break;
+    } });
+}
+
+const DsButton = DsButton$1;
+const defineCustomElement = defineCustomElement$1;
+
+export { DsButton, defineCustomElement };
+//# sourceMappingURL=ds-button.js.map
+
+//# sourceMappingURL=ds-button.js.map
